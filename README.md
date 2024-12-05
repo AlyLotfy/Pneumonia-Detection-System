@@ -4,6 +4,11 @@
 The **Pneumonia Detection System** uses deep learning techniques, particularly **Convolutional Neural Networks (CNNs)**, to detect pneumonia from chest X-ray images. This project provides a reliable and efficient diagnostic tool to support healthcare professionals in identifying pneumonia cases with high accuracy.
 
 ---
+## **📊 Dataset Reference**
+
+The dataset used in this project is sourced from Kaggle:  
+[Chest X-ray Pneumonia Dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+
 ## **📓 Jupyter Notebook**
 
 You can view and run the full implementation of this project in the Jupyter Notebook provided in the repository.  
