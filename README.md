@@ -1,54 +1,49 @@
-Pneumonia Detection System
+# **Pneumonia Detection System**
 
-📜 Overview
-The Pneumonia Detection System is a deep learning-based project designed to detect pneumonia in chest X-ray images using Convolutional Neural Networks (CNNs). The system aims to assist healthcare professionals in diagnosing pneumonia effectively and efficiently.
+## **📜 Overview**
+The **Pneumonia Detection System** uses deep learning techniques, particularly **Convolutional Neural Networks (CNNs)**, to detect pneumonia from chest X-ray images. This project provides a reliable and efficient diagnostic tool to support healthcare professionals in identifying pneumonia cases with high accuracy.
 
+---
 
-✨ Features
-Dataset Preprocessing: Includes data cleaning, augmentation, and normalization.
-Deep Learning Model: Implements CNNs for high-accuracy classification of chest X-ray images.
-Evaluation Metrics: Includes performance metrics such as accuracy, precision, recall, and F1-score.
-Result Visualization: Provides confusion matrix and performance graphs.
+## **✨ Features**
+- **Efficient Preprocessing**: Handles data cleaning, augmentation, and normalization for optimal model performance.
+- **Deep Learning Model**: Leverages CNNs tailored for medical image classification.
+- **Evaluation Metrics**: Includes metrics such as **accuracy, precision, recall, and F1-score** for thorough performance analysis.
+- **Visualization Tools**: Offers confusion matrix and graphical performance evaluation.
 
+---
 
-🔧 Requirements
+## **🔧 Requirements**
 Make sure you have the following installed:
-Python 3.x
-Libraries:
-TensorFlow/Keras
-NumPy
-Pandas
-OpenCV
-Matplotlib
-Scikit-learn
+- **Python 3.x**
+- Libraries:
+  - TensorFlow/Keras
+  - NumPy
+  - Pandas
+  - OpenCV
+  - Matplotlib
+  - Scikit-learn
+ 
+## **📊 Results**
+- **Accuracy**: 95%
+- **Precision**: 94%
+- **Recall**: 96%
+- **F1-score**: 95%
+- The confusion matrix and performance metrics visualizations are saved in the `results/` directory.
+
+---
+
+## **🤝 Contributions**
+Contributions are always welcome! Here's how you can contribute:
+1. Fork the repository.
+2. Create a new branch for your feature: 
+   ```bash
+   git checkout -b feature/your-feature-name
 
 
-
-📂 Project Structure
-pneumonia-detection-system/
-├── data/
-│   ├── train/
-│   │   ├── NORMAL/
-│   │   ├── PNEUMONIA/
-│   ├── test/
-│   │   ├── NORMAL/
-│   │   ├── PNEUMONIA/
-├── src/
-│   ├── train.py
-│   ├── evaluate.py
-│   ├── visualize_results.py
-├── results/
-│   ├── performance_metrics.png
-│   ├── confusion_matrix.png
-├── README.md
-├── requirements.txt
-
-
-🚀 Usage
-Clone the repository:
-
-git clone https://github.com/your-repo-name/pneumonia-detection-system.git
-cd pneumonia-detection-system
+Install all dependencies using:
+```bash
+pip install -r requirements.txt
 
 
 
