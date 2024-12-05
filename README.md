@@ -36,7 +36,7 @@ Make sure you have the following installed:
   - Scikit-learn
  
 ## **📊 Results**
-- **Accuracy**: 95%
+- **Accuracy**: 98.5%
 - **Precision**: 94%
 - **Recall**: 96%
 - **F1-score**: 95%
