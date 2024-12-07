@@ -46,15 +46,6 @@ Make sure you have the following installed:
 
 ## **🤝 Contributions**
 Contributions are always welcome! Here's how you can contribute:
-1. Fork the repository.
-2. Create a new branch for your feature: 
-   ```bash
-   git checkout -b feature/your-feature-name
-
-
-Install all dependencies using:
-```bash
-pip install -r requirements.txt
 
 
 
