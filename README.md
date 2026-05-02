@@ -1,4 +1,4 @@
-# 🫁 Pneumonia Detection System
+# Pneumonia Detection System
 
 **A deep-learning diagnostic aid that detects pneumonia from chest X-rays with 98.5 % accuracy.**
 
@@ -9,17 +9,17 @@
 
 ---
 
-## 📜 Overview
+##  Overview
 
 The Pneumonia Detection System uses a **Convolutional Neural Network** to classify chest X-ray images as **normal** or **pneumonia**. The goal is a reliable, lightweight diagnostic aid that supports radiologists — not a replacement, but a fast second opinion that catches obvious cases and flags uncertainty.
 
 The model achieves **98.5 % accuracy**, **94 % precision**, **96 % recall**, and **95 % F1-score** on the held-out test set of the public Kaggle pediatric pneumonia X-ray dataset.
 
-> ⚠️ **Disclaimer.** This is an academic / educational project. It has not been validated for clinical use and must not be deployed for diagnosis without proper regulatory review.
+> **Disclaimer.** This is an academic / educational project. It has not been validated for clinical use and must not be deployed for diagnosis without proper regulatory review.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **Source:** [Chest X-ray Pneumonia — Paul Mooney (Kaggle)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 - ~5,800 pediatric chest X-ray images
@@ -28,7 +28,7 @@ The model achieves **98.5 % accuracy**, **94 % precision**, **96 % recall**, and
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Efficient preprocessing pipeline** — resizing, augmentation (random rotation, zoom, horizontal flip), normalization
 - **CNN tailored for medical imaging** — Conv → BatchNorm → ReLU blocks with dropout regularization
@@ -38,7 +38,7 @@ The model achieves **98.5 % accuracy**, **94 % precision**, **96 % recall**, and
 
 ---
 
-## 📈 Results
+## Results
 
 | Metric | Score |
 | --- | --- |
@@ -51,7 +51,7 @@ The confusion matrix and training-curve plots are saved in `results/` after runn
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Python 3.10+**
 - **TensorFlow / Keras** — model definition, training, and inference
@@ -62,7 +62,7 @@ The confusion matrix and training-curve plots are saved in `results/` after runn
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 git clone https://github.com/AlyLotfy/Pneumonia-Detection-System.git
@@ -77,7 +77,7 @@ jupyter notebook
 
 ---
 
-## 🔭 Future Work
+## Future Work
 
 - **Transfer learning** with EfficientNet / DenseNet — typically pushes pediatric X-ray accuracy past 99 %
 - **Grad-CAM visualisations** to highlight regions the model focuses on (interpretability for clinicians)
@@ -86,19 +86,19 @@ jupyter notebook
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 Pull requests welcome — improvements to preprocessing, model architecture, evaluation, or interpretability are all good directions.
 
 ---
 
-## 📚 References
+## References
 
 - Kermany et al., 2018. *Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning.* Cell.
 - Selvaraju et al., 2017. *Grad-CAM: Visual Explanations from Deep Networks.* ICCV.
 
 ---
 
-## 📄 License
+## License
 
 Academic project, AAST Computer Engineering. Educational use only — not validated for clinical deployment.
